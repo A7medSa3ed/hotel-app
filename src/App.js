@@ -4,7 +4,7 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Rooms from "./pages/Rooms";
 import SingleRoom from "./pages/SingleRoom/SingleRoom";
-import Error from "./pages/Error";
+import Error from "./paggit remote add origin https://github.com/A7medSa3ed/Hotel-project.gites/Error";
 
 import Navbar from "./components/Navbar/Navbar";
 // import "./App.css";
