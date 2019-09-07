@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import items from "./data";
 const RoomContext = React.createContext();
 
-export default class RoomProvider extends Component {
+class RoomProvider extends Component {
+  // initial state
   state = {
     rooms: [],
     sortedRooms: [],
@@ -33,8 +34,8 @@ export default class RoomProvider extends Component {
     this.setState({
       rooms,
       featuredRooms,
-      sortedRooms: rooms,
       loading: false,
+      sortedRooms: rooms,
       price: maxPrice,
       maxPrice,
       maxSize

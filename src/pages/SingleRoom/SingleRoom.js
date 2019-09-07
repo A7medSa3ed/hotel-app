@@ -5,6 +5,7 @@ import defaultBcg from "../../images/room-1.jpeg";
 import Banner from "../../components/Banner/Banner";
 import StyledHero from "../../components/Hero/StyledHero";
 import "./SingleRoom.css";
+
 export default class SingleRoom extends Component {
   static contextType = RoomContext;
 

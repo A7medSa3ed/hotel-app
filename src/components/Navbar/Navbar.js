@@ -12,6 +12,9 @@ export default class Navbar extends Component {
   handleToggle = () => {
     this.setState({ isOpen: !this.state.isOpen });
   };
+  closeSlider = () => {
+    this.setState({ isOpen: !this.state.isOpen });
+  };
   render() {
     return (
       <nav className="navbar">
@@ -32,10 +35,14 @@ export default class Navbar extends Component {
             className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
           >
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={this.closeSlider}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/rooms">Rooms</Link>
+              <Link to="/rooms" onClick={this.closeSlider}>
+                Rooms
+              </Link>
             </li>
           </ul>
         </div>

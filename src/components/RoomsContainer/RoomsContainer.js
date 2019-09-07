@@ -14,7 +14,7 @@ const RoomsContainer = () => {
         }
         return (
           <>
-            Hello Form Room Conatianer
+            <br />
             <RoomsFilter rooms={rooms} />
             <RoomsList rooms={sortedRooms} />
           </>

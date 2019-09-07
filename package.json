@@ -2,9 +2,7 @@
   "name": "hotel-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://A7medSa3ed.github.io/Hotel-app",
   "dependencies": {
-    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-icons": "^3.7.0",
@@ -13,7 +11,6 @@
     "styled-components": "^4.3.2"
   },
   "scripts": {
-    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
